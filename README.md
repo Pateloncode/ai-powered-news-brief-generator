@@ -24,6 +24,32 @@ cd ai-powered-news-brief-generator
 pip install -r requirements.txt
 ```
 
+### Dependencies
+
+This project uses the following main dependencies:
+- **Flask**: For creating the API endpoints and serving your application.
+- **Other AI-related libraries** (e.g., transformers, torch, etc. — as needed for your model).
+
+Add these to your `requirements.txt`:
+```
+flask
+# Add your AI libraries below
+```
+
+## Usage
+
+You can run the Flask API locally:
+```bash
+export FLASK_APP=app.py
+flask run
+```
+Or using Python:
+```bash
+python app.py
+```
+
+---
+
 ## Usage
 Run the application and input your news article to receive an AI-generated summary.
 
